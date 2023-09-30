@@ -111,7 +111,7 @@ TYPE_TABLE = {        # (key: integer flag, value: numpy dtype)
     2:_numpy.float32, # NT_FP32, 32 bit fp numbers.
     3:_numpy.complex64,
     4:_numpy.float64, # NT_FP64, 64 bit fp numbers.
-    5:complex128,
+    5:_numpy.complex128,
     8:_numpy.int8,    # NT_I8, 8 bit signed integer. Requires Igor Pro
                       # 2.0 or later.
     9:complexInt8,
